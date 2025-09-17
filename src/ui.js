@@ -42,6 +42,7 @@ export class SimulationUI {
     splatFolder.add(cfg, "splatRadius", 0.001, 0.05, 0.001).name("Radius");
     splatFolder.add(cfg, "splatForce", 1000.0, 15000.0, 100.0).name("Force");
     splatFolder.add(cfg, "cycleColors").name("Cycle Colours");
+    splatFolder.add(cfg, "colorCycleSpeed", 0.001, 4.0, 0.001).name("Colour Cycle Invterval");
     splatFolder
       .add(cfg, "texelDownsample", 1, 8, 1)
       .name("Downsample")
