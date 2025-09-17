@@ -58,6 +58,8 @@ export class SimulationUI {
     displayFolder.add(cfg, "bloomLevels", 1, 6, 1).name("Bloom Levels");
 
     this.gui.add(this.stats, "fps").name("FPS").listen();
+
+    this.gui.close();
   }
 
   _bindPointerEvents() {

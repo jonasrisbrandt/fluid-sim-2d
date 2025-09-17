@@ -37,12 +37,12 @@ const DEFAULT_CONFIG = {
   paused: false,
   cycleColors: true,
   colorCycleSpeed: 0.5,
-  gamma: 2.2,
-  exposure: 0.18,
+  gamma: 1.59,
+  exposure: 0.25,
   enableBloom: true,
-  bloomIntensity: 0.2,
+  bloomIntensity: 0.55,
   bloomThreshold: 0.6,
-  bloomLevels: 4,
+  bloomLevels: 2,
 };
 
 const HALF_FLOAT_TYPE = (gl) => gl.HALF_FLOAT;
