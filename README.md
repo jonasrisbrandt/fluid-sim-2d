@@ -1,6 +1,7 @@
 # WebGL2 Fluid Simulation
 
-A production-ready WebGL2 (EXT_color_buffer_float) port of PavelDoGreat''s fluid simulation with the same look, feel and interaction model. The app runs entirely in vanilla JavaScript and GLSL ES 3.00.
+A WebGL2 (EXT_color_buffer_float) 2D fluid simulation. The app runs entirely in vanilla JavaScript and GLSL ES 3.00.
+Inspired by PavelDoGreats work.
 
 ## Getting Started
 
@@ -20,7 +21,7 @@ The built-in control panel exposes the following runtime parameters:
 - `Curl Strength`: vorticity confinement magnitude.
 - `Paused`: stops the simulation while keeping the current field buffers.
 - `Radius`, `Force`: controls for injected splats.
-- `Auto Colour`: toggles automatic random splats.
+- `Cycle Colours`: toggles automatic color cycling on splats.
 - `Downsample`: adjusts simulation resolution (1 = full resolution).
 - `Gamma`, `Exposure`: tone mapping parameters for rendering.
 - `Bloom`, `Bloom Intensity`, `Bloom Threshold`, `Bloom Levels`: toggle and tune the bloom effect.
